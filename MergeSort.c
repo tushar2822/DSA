@@ -83,7 +83,7 @@ int main()
         scanf("%d",&array[i]);
     }
 
-    printf("The array after the process of Sorting: ");
+    printf("The array before the process of Sorting: ");
     printArray(array,size);
 
     mergeSort(array,0,size-1);
